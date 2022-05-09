@@ -1,0 +1,44 @@
+/* Header */
+
+.HeaderContainer {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.HeaderLogo {
+  flex: 1;
+  padding-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.LogoImage {
+  height: 55px;
+}
+
+.HeaderMenu {
+  flex: 1;
+  padding-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.LoginAuthButton {
+  background-color: #cd2e71 !important;
+  padding: 10px 45px !important;
+  border-radius: 5px !important;
+  font-weight: 500 !important;
+  font-size: 17px !important;
+  color: white !important;
+  border: 0px solid black !important;
+  cursor: pointer;
+}
+
+.LoginAuthButton:hover {
+  background-color: hsl(335, 82%, 28%) !important;
+}

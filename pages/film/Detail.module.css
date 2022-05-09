@@ -1,0 +1,76 @@
+/* Detail */
+
+.ContainerIsiDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.IsiDetail {
+  flex: 1;
+}
+
+.TumbnailFilmDetail {
+  border-radius: 5px;
+  height: 485px;
+  width: 349px;
+}
+
+.JudulFilmDetail {
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.DetailJudulHarga {
+  color: #cd2e71;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 800;
+  text-shadow: 1px 1px #fff;
+}
+
+.ButtonBuyFilm {
+  padding: 10px 20px;
+  background-color: hsl(335, 63%, 49%);
+  margin-bottom: 30px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.ButtonBuyFilm:hover {
+  background-color: hsl(335, 82%, 28%);
+}
+
+.GenrePriceDesk {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.DetailGenre {
+  font-family: Avenir;
+  font-weight: 800;
+  font-size: 24px;
+  color: #7e7e7e;
+}
+
+.DetailHarga {
+  font-family: Avenir;
+  font-weight: 900;
+  font-size: 18px;
+  color: hsl(335, 63%, 49%);
+}
+
+.DetailDesk {
+  font-family: Avenir;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}

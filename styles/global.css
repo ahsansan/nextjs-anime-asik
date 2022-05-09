@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Avenir";
+  src: local("Avenir"), url(../assets/fonts/Avenir.otf) format("truetype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Homepage */
+
+.container-utama {
+  margin-top: 40px;
+}
+
+.container-list-film {
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.highlight-film {
+  width: 1081px;
+  height: 437px;
+  padding: 40px 80px;
+  background: linear-gradient(90deg, #121212 0%, rgba(18, 18, 18, 0) 47.02%);
+  border-radius: 5px;
+}
+
+.pointer {
+  cursor: pointer;
+  border-radius: 5px;
+  width: 180px;
+  height: 250px;
+}
+
+.list-film {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+}
+
+.button-buy-highlight {
+  padding: 10px 20px;
+  background-color: #cd2e71;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.button-buy-highlight:hover {
+  background-color: #be0552;
+}
+
+.judul-film-highlight {
+  font-family: Avenir;
+  font-size: 48px;
+  font-weight: 900;
+  color: #a52620;
+  text-shadow: 1px 1px #fff;
+}
+
+.deskripsi-film-highlight {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 400;
+  text-shadow: 1px 1px #000;
+}
+
+.harga-film-highlight {
+  color: #cd2e71;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 800;
+  text-shadow: 1px 1px #fff;
+}
+
+.kategori-film-highlight {
+  color: black;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 900;
+  text-shadow: 1px 1px #fff;
+}
